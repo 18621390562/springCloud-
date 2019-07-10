@@ -1,0 +1,11 @@
+alive: yunan-workbook 127.0.0.1:8301
+leave
+clock: 1
+alive: yunan-workbook 127.0.0.1:8301
+alive: yunan-workbook 127.0.0.1:8301
+event-clock: 1
+alive: yunan-workbook 127.0.0.1:8301
+alive: yunan-workbook 127.0.0.1:8301
+event-clock: 2
+alive: yunan-workbook 127.0.0.1:8301
+event-clock: 3

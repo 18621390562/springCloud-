@@ -1,0 +1,1 @@
+{"Token":"","Service":{"ID":"demo-consume-0","Service":"demo-consume","Tags":["secure=false"],"Address":"192.168.11.100","Meta":null,"Port":12155,"EnableTagOverride":false,"ProxyDestination":"","Connect":{"Native":false,"Proxy":null},"CreateIndex":0,"ModifyIndex":0}}

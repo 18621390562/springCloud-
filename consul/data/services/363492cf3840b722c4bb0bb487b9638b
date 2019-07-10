@@ -1,0 +1,1 @@
+{"Token":"","Service":{"ID":"api-gateway-8080","Service":"api-gateway","Tags":["secure=false"],"Address":"192.168.11.100","Meta":null,"Port":8080,"EnableTagOverride":false,"ProxyDestination":"","Connect":{"Native":false,"Proxy":null},"CreateIndex":0,"ModifyIndex":0}}

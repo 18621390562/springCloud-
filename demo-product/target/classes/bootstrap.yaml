@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: demo-product
+  cloud:
+    consul:
+      host: api.netposa.com
+      config:
+        data-key: data
+        enabled: true
+        format: yaml
+      discovery:
+        prefer-ip-address: true
+  profiles:
+    active: dev
+  zipkin:
+    base-url: 'http://127.0.0.1:9411/'
+  devtools:
+    add-properties: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['*']
+  endpoint:
+    health:
+      show-details: always
+    logfile:
+      external-file: /logs/${spring.application.name}.log
+server-name: product
+server:
+  port: 0
+logging:
+  path: /logs/${spring.application.name}
+  file: ${logging.path}/${spring.application.name}.log

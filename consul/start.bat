@@ -1,0 +1,1 @@
+consul agent -server -bootstrap -ui -bind=127.0.0.1 -advertise=127.0.0.1 -data-dir=D:/tools/consul/data

@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: admin-server
+  cloud:
+    consul:
+      host: api.netposa.com
+      config:
+        data-key: data
+        enabled: true
+        format: yaml
+      discovery:
+        prefer-ip-address: true
+  profiles:
+    active: dev
+  zipkin:
+    base-url: 'http://127.0.0.1:9411/'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['*']
+  endpoint:
+    health:
+      show-details: always
+feign:
+  hystrix:
+    enabled: true
+server:
+  port: 8081
